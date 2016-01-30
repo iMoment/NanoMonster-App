@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		91129B041C5CF6C9004EF461 /* MonsterImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91129B031C5CF6C9004EF461 /* MonsterImage.swift */; };
+		9115C0831C5D18AB00A7967F /* bite.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9115C07E1C5D18AB00A7967F /* bite.wav */; };
+		9115C0841C5D18AB00A7967F /* cave-music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9115C07F1C5D18AB00A7967F /* cave-music.mp3 */; };
+		9115C0851C5D18AB00A7967F /* death.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9115C0801C5D18AB00A7967F /* death.wav */; };
+		9115C0861C5D18AB00A7967F /* heart.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9115C0811C5D18AB00A7967F /* heart.wav */; };
+		9115C0871C5D18AB00A7967F /* skull.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9115C0821C5D18AB00A7967F /* skull.wav */; };
 		915357171C5CBD1C002150AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915357161C5CBD1C002150AF /* AppDelegate.swift */; };
 		915357191C5CBD1C002150AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915357181C5CBD1C002150AF /* ViewController.swift */; };
 		9153571C1C5CBD1C002150AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9153571A1C5CBD1C002150AF /* Main.storyboard */; };
@@ -37,6 +42,11 @@
 
 /* Begin PBXFileReference section */
 		91129B031C5CF6C9004EF461 /* MonsterImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonsterImage.swift; sourceTree = "<group>"; };
+		9115C07E1C5D18AB00A7967F /* bite.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bite.wav; sourceTree = "<group>"; };
+		9115C07F1C5D18AB00A7967F /* cave-music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "cave-music.mp3"; sourceTree = "<group>"; };
+		9115C0801C5D18AB00A7967F /* death.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = death.wav; sourceTree = "<group>"; };
+		9115C0811C5D18AB00A7967F /* heart.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = heart.wav; sourceTree = "<group>"; };
+		9115C0821C5D18AB00A7967F /* skull.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = skull.wav; sourceTree = "<group>"; };
 		915357131C5CBD1C002150AF /* NanoMonster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NanoMonster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		915357161C5CBD1C002150AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		915357181C5CBD1C002150AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -101,13 +111,18 @@
 		915357151C5CBD1C002150AF /* NanoMonster */ = {
 			isa = PBXGroup;
 			children = (
+				9115C07E1C5D18AB00A7967F /* bite.wav */,
+				9115C07F1C5D18AB00A7967F /* cave-music.mp3 */,
+				9115C0801C5D18AB00A7967F /* death.wav */,
+				9115C0811C5D18AB00A7967F /* heart.wav */,
+				9115C0821C5D18AB00A7967F /* skull.wav */,
 				915357161C5CBD1C002150AF /* AppDelegate.swift */,
 				915357181C5CBD1C002150AF /* ViewController.swift */,
-				915357441C5CDB0B002150AF /* DragImage.swift */,
 				9153571A1C5CBD1C002150AF /* Main.storyboard */,
 				9153571D1C5CBD1C002150AF /* Assets.xcassets */,
 				9153571F1C5CBD1C002150AF /* LaunchScreen.storyboard */,
 				915357221C5CBD1C002150AF /* Info.plist */,
+				915357441C5CDB0B002150AF /* DragImage.swift */,
 				91129B031C5CF6C9004EF461 /* MonsterImage.swift */,
 			);
 			path = NanoMonster;
@@ -238,6 +253,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9115C0871C5D18AB00A7967F /* skull.wav in Resources */,
+				9115C0831C5D18AB00A7967F /* bite.wav in Resources */,
+				9115C0851C5D18AB00A7967F /* death.wav in Resources */,
+				9115C0861C5D18AB00A7967F /* heart.wav in Resources */,
+				9115C0841C5D18AB00A7967F /* cave-music.mp3 in Resources */,
 				915357211C5CBD1C002150AF /* LaunchScreen.storyboard in Resources */,
 				9153571E1C5CBD1C002150AF /* Assets.xcassets in Resources */,
 				9153571C1C5CBD1C002150AF /* Main.storyboard in Resources */,
