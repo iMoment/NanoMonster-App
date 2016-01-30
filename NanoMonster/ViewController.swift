@@ -93,7 +93,7 @@ class ViewController: UIViewController {
             timer.invalidate()
         }
         
-        timer = NSTimer.scheduledTimerWithTimeInterval(5.0, target: self, selector: "changeGameState", userInfo: nil, repeats: true)
+        timer = NSTimer.scheduledTimerWithTimeInterval(4.0, target: self, selector: "changeGameState", userInfo: nil, repeats: true)
     }
     
     func changeGameState() {
@@ -145,11 +145,8 @@ class ViewController: UIViewController {
         timer.invalidate()
         monsterImage.playDeathAnimation()
         sfxDeath.play()
-        
-        foodImage.alpha = DIM_ALPHA
-        foodImage.userInteractionEnabled = false
-        heartImage.alpha = DIM_ALPHA
-        heartImage.userInteractionEnabled = false
+        foodImage.hidden = true
+        heartImage.hidden = true
     }
 
 }
