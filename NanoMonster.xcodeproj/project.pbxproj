@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		91129B041C5CF6C9004EF461 /* MonsterImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91129B031C5CF6C9004EF461 /* MonsterImage.swift */; };
 		915357171C5CBD1C002150AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915357161C5CBD1C002150AF /* AppDelegate.swift */; };
 		915357191C5CBD1C002150AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915357181C5CBD1C002150AF /* ViewController.swift */; };
 		9153571C1C5CBD1C002150AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9153571A1C5CBD1C002150AF /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		91129B031C5CF6C9004EF461 /* MonsterImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonsterImage.swift; sourceTree = "<group>"; };
 		915357131C5CBD1C002150AF /* NanoMonster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NanoMonster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		915357161C5CBD1C002150AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		915357181C5CBD1C002150AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				9153571D1C5CBD1C002150AF /* Assets.xcassets */,
 				9153571F1C5CBD1C002150AF /* LaunchScreen.storyboard */,
 				915357221C5CBD1C002150AF /* Info.plist */,
+				91129B031C5CF6C9004EF461 /* MonsterImage.swift */,
 			);
 			path = NanoMonster;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91129B041C5CF6C9004EF461 /* MonsterImage.swift in Sources */,
 				915357191C5CBD1C002150AF /* ViewController.swift in Sources */,
 				915357451C5CDB0B002150AF /* DragImage.swift in Sources */,
 				915357171C5CBD1C002150AF /* AppDelegate.swift in Sources */,
@@ -491,6 +495,7 @@
 				9153573D1C5CBD1C002150AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9153573E1C5CBD1C002150AF /* Build configuration list for PBXNativeTarget "NanoMonsterTests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +504,7 @@
 				915357401C5CBD1C002150AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		915357411C5CBD1C002150AF /* Build configuration list for PBXNativeTarget "NanoMonsterUITests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +513,7 @@
 				915357431C5CBD1C002150AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

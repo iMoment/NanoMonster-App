@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    @IBOutlet weak var monsterImage: UIImageView!
+    @IBOutlet weak var monsterImage: MonsterImage!
     @IBOutlet weak var foodImage: DragImage!
     @IBOutlet weak var heartImage: DragImage!
     
@@ -18,17 +18,6 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        
-        var imgArray = [UIImage]()
-        for var x = 1; x <= 4; x++ {
-            let img = UIImage(named: "Idle_0\(x).png")
-            imgArray.append(img!)
-        }
-        
-        monsterImage.animationImages = imgArray
-        monsterImage.animationDuration = 0.8
-        monsterImage.animationRepeatCount = 0
-        monsterImage.startAnimating()
     }
 
     override func didReceiveMemoryWarning() {
