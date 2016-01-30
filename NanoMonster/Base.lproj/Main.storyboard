@@ -76,10 +76,10 @@
                             <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" distribution="fillEqually" spacing="100" translatesAutoresizingMaskIntoConstraints="NO" id="tqe-ph-Iz3">
                                 <rect key="frame" x="153" y="109" width="290" height="98"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Heart" translatesAutoresizingMaskIntoConstraints="NO" id="VpG-O3-rNV">
+                                    <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Heart" translatesAutoresizingMaskIntoConstraints="NO" id="VpG-O3-rNV" customClass="DragImage" customModule="NanoMonster" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="95" height="98"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Food" translatesAutoresizingMaskIntoConstraints="NO" id="tt1-2R-gUY">
+                                    <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Food" translatesAutoresizingMaskIntoConstraints="NO" id="tt1-2R-gUY" customClass="DragImage" customModule="NanoMonster" customModuleProvider="target">
                                         <rect key="frame" x="195" y="0.0" width="95" height="98"/>
                                     </imageView>
                                 </subviews>
@@ -144,6 +144,8 @@
                         </variation>
                     </view>
                     <connections>
+                        <outlet property="foodImage" destination="tt1-2R-gUY" id="Kr6-xr-Wf1"/>
+                        <outlet property="heartImage" destination="VpG-O3-rNV" id="M8k-cp-2TE"/>
                         <outlet property="monsterImage" destination="ZxK-mK-gws" id="lP0-5b-Nbf"/>
                     </connections>
                 </viewController>

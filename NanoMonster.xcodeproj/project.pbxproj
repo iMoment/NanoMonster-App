@@ -14,6 +14,7 @@
 		915357211C5CBD1C002150AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9153571F1C5CBD1C002150AF /* LaunchScreen.storyboard */; };
 		9153572C1C5CBD1C002150AF /* NanoMonsterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9153572B1C5CBD1C002150AF /* NanoMonsterTests.swift */; };
 		915357371C5CBD1C002150AF /* NanoMonsterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915357361C5CBD1C002150AF /* NanoMonsterUITests.swift */; };
+		915357451C5CDB0B002150AF /* DragImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915357441C5CDB0B002150AF /* DragImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		915357321C5CBD1C002150AF /* NanoMonsterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NanoMonsterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		915357361C5CBD1C002150AF /* NanoMonsterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NanoMonsterUITests.swift; sourceTree = "<group>"; };
 		915357381C5CBD1C002150AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		915357441C5CDB0B002150AF /* DragImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				915357161C5CBD1C002150AF /* AppDelegate.swift */,
 				915357181C5CBD1C002150AF /* ViewController.swift */,
+				915357441C5CDB0B002150AF /* DragImage.swift */,
 				9153571A1C5CBD1C002150AF /* Main.storyboard */,
 				9153571D1C5CBD1C002150AF /* Assets.xcassets */,
 				9153571F1C5CBD1C002150AF /* LaunchScreen.storyboard */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				915357191C5CBD1C002150AF /* ViewController.swift in Sources */,
+				915357451C5CDB0B002150AF /* DragImage.swift in Sources */,
 				915357171C5CBD1C002150AF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
