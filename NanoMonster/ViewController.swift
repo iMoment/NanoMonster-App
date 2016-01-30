@@ -80,6 +80,12 @@ class ViewController: UIViewController {
         foodImage.userInteractionEnabled = false
         heartImage.alpha = DIM_ALPHA
         heartImage.userInteractionEnabled = false
+        
+        if currentItem == 0 {
+            sfxHeart.play()
+        } else {
+            sfxBite.play()
+        }
     }
     
     func startTimer() {
@@ -94,6 +100,7 @@ class ViewController: UIViewController {
         
         if !monsterAffection {
             penalties++
+            sfxSkull.play()
             
             if penalties == 1 {
                 skullPenalty1.alpha = OPAQUE
@@ -137,6 +144,12 @@ class ViewController: UIViewController {
     func gameOver() {
         timer.invalidate()
         monsterImage.playDeathAnimation()
+        sfxDeath.play()
+        
+        foodImage.alpha = DIM_ALPHA
+        foodImage.userInteractionEnabled = false
+        heartImage.alpha = DIM_ALPHA
+        heartImage.userInteractionEnabled = false
     }
 
 }
